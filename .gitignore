@@ -1,0 +1,10 @@
+#Dependencies
+node_modules/
+users/node_modules/
+
+#Build
+dist/
+build/
+
+#Environment Variables
+.env

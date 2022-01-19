@@ -1,0 +1,12 @@
+{
+  "name": "poupanca-wame",
+  "author": {
+    "name": "Henriques Salucamba",
+    "nickname": "BlvkR8t",
+    "email": "hsalucamba@outlook.com",
+    "url": "https://github.com/BlvkRoot"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
