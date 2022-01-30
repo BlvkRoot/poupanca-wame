@@ -1,6 +1,7 @@
 #Dependencies
 node_modules/
 users/node_modules/
+statements/node_modules/
 
 #Build
 dist/

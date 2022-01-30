@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  users-service:
+    image: blvckr8t/user-service-api
+    build: 
+      context: .
+      dockerfile: ./src/users/Dockerfile
+    container_name: user-service-api
+    ports:
+      - "3434:3434"
+
+  statements-service:
+    image: blvckr8t/statements-service-api
+    build: 
+      context: .
+      dockerfile: ./src/statements/Dockerfile
+    container_name: statement-service-api
+    ports:
+      - "4444:4444"
